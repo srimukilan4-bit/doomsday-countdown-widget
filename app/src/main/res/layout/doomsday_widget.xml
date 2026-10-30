@@ -62,7 +62,7 @@
             android:id="@+id/release_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DECEMBER 18, 2026"
+            android:text="DECEMBER 17, 2026"
             android:textColor="#DDFFFFFF"
             android:textSize="8sp"
             android:letterSpacing="0.12"
