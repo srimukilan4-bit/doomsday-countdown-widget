@@ -35,7 +35,7 @@ class DoomsdayWidgetProvider : AppWidgetProvider() {
     companion object {
         private const val ACTION_UPDATE = "com.pete.doomsdaywidget.UPDATE"
         // The announced theatrical release date. Countdown uses the phone's local time zone.
-        private val target = LocalDateTime.of(2026, Month.DECEMBER, 18, 0, 0, 0)
+        private val target = LocalDateTime.of(2026, Month.DECEMBER, 17, 0, 0, 0)
 
         private fun updateOne(context: Context, manager: AppWidgetManager, id: Int) {
             val now = LocalDateTime.now()
