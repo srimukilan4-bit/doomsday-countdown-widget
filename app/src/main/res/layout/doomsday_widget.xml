@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doomsday_background"
+    android:padding="0dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_scrim" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOOMSDAY IS COMING"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:letterSpacing="0.08"
+            android:shadowColor="#CC000000"
+            android:shadowRadius="5"
+            android:shadowDx="1"
+            android:shadowDy="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+                <TextView android:id="@+id/months" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="01" android:textColor="#FFFFFF" android:textSize="25sp" android:fontFamily="sans-serif-light" android:shadowColor="#CC000000" android:shadowRadius="4" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MONTHS" android:textColor="#EEEEEE" android:textSize="7sp" android:textStyle="bold" android:letterSpacing="0.08" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+                <TextView android:id="@+id/days" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="17" android:textColor="#FFFFFF" android:textSize="25sp" android:fontFamily="sans-serif-light" android:shadowColor="#CC000000" android:shadowRadius="4" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DAYS" android:textColor="#EEEEEE" android:textSize="7sp" android:textStyle="bold" android:letterSpacing="0.08" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+                <TextView android:id="@+id/hours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11" android:textColor="#FFFFFF" android:textSize="25sp" android:fontFamily="sans-serif-light" android:shadowColor="#CC000000" android:shadowRadius="4" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HOURS" android:textColor="#EEEEEE" android:textSize="7sp" android:textStyle="bold" android:letterSpacing="0.08" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+                <TextView android:id="@+id/minutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="40" android:textColor="#FFFFFF" android:textSize="25sp" android:fontFamily="sans-serif-light" android:shadowColor="#CC000000" android:shadowRadius="4" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MINUTES" android:textColor="#EEEEEE" android:textSize="7sp" android:textStyle="bold" android:letterSpacing="0.08" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+                <TextView android:id="@+id/seconds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11" android:textColor="#FFFFFF" android:textSize="25sp" android:fontFamily="sans-serif-light" android:shadowColor="#CC000000" android:shadowRadius="4" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SECONDS" android:textColor="#EEEEEE" android:textSize="7sp" android:textStyle="bold" android:letterSpacing="0.08" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/release_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DECEMBER 18, 2026"
+            android:textColor="#DDFFFFFF"
+            android:textSize="8sp"
+            android:letterSpacing="0.12"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+</FrameLayout>
